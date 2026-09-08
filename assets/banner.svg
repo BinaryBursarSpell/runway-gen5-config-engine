@@ -1,0 +1,78 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0e1a"/>
+      <stop offset="50%" stop-color="#101828"/>
+      <stop offset="100%" stop-color="#1a0f2e"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0.2" cy="0.3" r="0.6">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0.85" cy="0.7" r="0.5">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#7c3aed" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <rect width="1200" height="360" fill="url(#glow1)"/>
+  <rect width="1200" height="360" fill="url(#glow2)"/>
+
+  <!-- Decorative shapes -->
+  <circle cx="100" cy="60" r="2" fill="#7c3aed" opacity="0.3"/>
+  <circle cx="1100" cy="80" r="1.5" fill="#06b6d4" opacity="0.3"/>
+  <circle cx="200" cy="290" r="1.8" fill="#7c3aed" opacity="0.25"/>
+  <circle cx="950" cy="280" r="2.2" fill="#06b6d4" opacity="0.2"/>
+  <circle cx="600" cy="40" r="1.2" fill="#ffffff" opacity="0.15"/>
+  <circle cx="800" cy="330" r="1.5" fill="#ffffff" opacity="0.1"/>
+  <circle cx="350" cy="150" r="1" fill="#7c3aed" opacity="0.2"/>
+  <circle cx="850" cy="120" r="1.3" fill="#06b6d4" opacity="0.2"/>
+  <circle cx="450" cy="310" r="1.1" fill="#ffffff" opacity="0.12"/>
+  <circle cx="1050" cy="200" r="1.4" fill="#7c3aed" opacity="0.15"/>
+
+  <!-- Grid lines -->
+  <line x1="0" y1="0" x2="1200" y2="0" stroke="#ffffff" stroke-opacity="0.02" stroke-width="1"/>
+  <line x1="0" y1="120" x2="1200" y2="120" stroke="#ffffff" stroke-opacity="0.02" stroke-width="1"/>
+  <line x1="0" y1="240" x2="1200" y2="240" stroke="#ffffff" stroke-opacity="0.02" stroke-width="1"/>
+  <line x1="0" y1="360" x2="1200" y2="360" stroke="#ffffff" stroke-opacity="0.02" stroke-width="1"/>
+
+  <!-- Vertical accent lines -->
+  <line x1="80" y1="90" x2="80" y2="270" stroke="url(#line)" stroke-width="1" opacity="0.5"/>
+  <line x1="1120" y1="90" x2="1120" y2="270" stroke="url(#line)" stroke-width="1" opacity="0.5"/>
+
+  <!-- Decorative path -->
+  <path d="M0 320 Q300 280 600 310 Q900 340 1200 300" fill="none" stroke="#7c3aed" stroke-opacity="0.08" stroke-width="1"/>
+  <path d="M0 340 Q400 310 700 335 Q1000 355 1200 325" fill="none" stroke="#06b6d4" stroke-opacity="0.06" stroke-width="1"/>
+
+  <!-- Small decorative lines -->
+  <line x1="120" y1="100" x2="180" y2="100" stroke="#7c3aed" stroke-opacity="0.2" stroke-width="1"/>
+  <line x1="1020" y1="100" x2="1080" y2="100" stroke="#06b6d4" stroke-opacity="0.2" stroke-width="1"/>
+  <line x1="120" y1="260" x2="160" y2="260" stroke="#06b6d4" stroke-opacity="0.15" stroke-width="1"/>
+  <line x1="1040" y1="260" x2="1080" y2="260" stroke="#7c3aed" stroke-opacity="0.15" stroke-width="1"/>
+
+  <!-- Decorative diamond shapes -->
+  <polygon points="560,85 570,95 560,105 550,95" fill="none" stroke="#7c3aed" stroke-opacity="0.3" stroke-width="1"/>
+  <polygon points="640,85 650,95 640,105 630,95" fill="none" stroke="#06b6d4" stroke-opacity="0.3" stroke-width="1"/>
+
+  <!-- Headline -->
+  <text x="600" y="155" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="56.0" font-weight="bold" fill="#ffffff">
+    <tspan x="600" dy="0">Runway Gen 5 Premium</tspan>
+    <tspan x="600" dy="58">Unlocker</tspan>
+  </text>
+
+  <!-- Divider line -->
+  <line x1="480" y1="225" x2="720" y2="225" stroke="#7c3aed" stroke-opacity="0.4" stroke-width="1"/>
+
+  <!-- Tagline -->
+  <text x="600" y="255" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="19.0" fill="#c9d1d9">
+    <tspan x="600" dy="0">Config engine for Runway Gen-5 Premium Unlocker — set your</tspan>
+    <tspan x="600" dy="28">watermark and export preferences once, then launch…</tspan>
+  </text>
+</svg>
